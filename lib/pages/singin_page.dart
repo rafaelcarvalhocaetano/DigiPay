@@ -33,8 +33,7 @@ class _SingInPageState extends State<SingInPage> {
                 children: <Widget>[
                   Padding(
                     padding: EdgeInsets.only(top: 90.0, bottom: 30.0),
-                    // child: FlutterLogo(size: 150.0,),
-                    child: Image.asset('images/002.png', width: 180.0, height: 100.0,),
+                    child: FlutterLogo(size: 150.0,),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
